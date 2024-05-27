@@ -37,6 +37,10 @@
     width: 18rem;
     border: 2px solid var(--alternative);
 
+    & :is(h2) {
+        text-align: center;
+    }
+
     & img[alt] {
         width: 100%;
         object-fit: cover;
